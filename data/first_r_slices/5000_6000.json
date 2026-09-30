@@ -1,0 +1,29 @@
+{
+  "residue_mod_840": 529,
+  "start": 5000000000,
+  "stop": 6000000000,
+  "last_prime_scanned": 5999986129,
+  "primes_scanned": 231953,
+  "t_max": 40,
+  "min_R_reported": 108,
+  "hits_at_or_above_min_R": 0,
+  "unresolved_above_t_max": [],
+  "unresolved_count": 0,
+  "max_first_R_seen": 63,
+  "max_first_R_n": 5198173369,
+  "deepest": {
+    "n": 5198173369,
+    "n_mod_840": 529,
+    "first_R": 63,
+    "t": 15,
+    "x": 1299543358,
+    "y": 107415662683300173,
+    "z": 60797265078747897918,
+    "residual": 0
+  },
+  "cover_claimed": false,
+  "esc_proved": false,
+  "note": "measurement; bounded shifted-greedy is not a class cover",
+  "hits": [],
+  "csv": "data/first_r_slices/5000_6000.csv"
+}

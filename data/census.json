@@ -1,0 +1,19 @@
+{
+  "census": {
+    "limit": 8000,
+    "solved": 7999,
+    "unsolved": [],
+    "smallest_unsolved": null,
+    "methods": {
+      "identity": 7811,
+      "scale": 174,
+      "shifted-greedy": 14
+    },
+    "mordell_hard_solved": 58,
+    "mordell_hard_unsolved": []
+  },
+  "hard_primes_checked": 83,
+  "hard_primes_solved": 83,
+  "hard_primes_failed": [],
+  "smallest_unsolved_anywhere": null
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+dist/
+build/
+.mypy_cache/
+agent-tools/
+/fi2
+/vI
+/enum/fi2
+c[0-9].txt
+c[0-9][0-9].txt
+data/typeI_partial/

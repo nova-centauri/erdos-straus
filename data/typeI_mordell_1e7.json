@@ -1,0 +1,59 @@
+{
+  "source": {
+    "session": "Claude Opus 5 High leftover burn",
+    "model": "Claude Opus 5 High",
+    "turn": 8,
+    "date": "2026-09-05",
+    "kind": "Type I enumerator harvest (measurement, not a cover)"
+  },
+  "constraints": {
+    "y_max": "2n/3",
+    "x": "n*a*b*d",
+    "enumerator_rebuilt": false
+  },
+  "N": 10000000,
+  "runtime_seconds": 1633,
+  "slices": 8,
+  "cores": 1,
+  "sums": {
+    "f_I_n": 2559629008,
+    "f_I_p": 454495120
+  },
+  "fit": {
+    "c0": 0.1442,
+    "c1": 0.496,
+    "observed_P_over_M_ln2_M": 0.17495,
+    "compare_c0_at_1e6": 0.1456,
+    "loglog_removal": "third decade supports removing log log only weakly"
+  },
+  "prior_N_1e6": {
+    "f_I_n": 165374532,
+    "f_I_p": 34276274,
+    "c0": 0.1456
+  },
+  "mordell_primes": {
+    "bound": "p <= 10^7",
+    "zero_misses_is_not_a_cover": true,
+    "classes": [
+      {"residue_mod_840": 1, "primes": 3426, "hits": 3426, "misses": 0, "min_f_I": 12, "max_f_I": 570},
+      {"residue_mod_840": 121, "primes": 3431, "hits": 3431, "misses": 0, "min_f_I": 24, "max_f_I": 568},
+      {"residue_mod_840": 169, "primes": 3400, "hits": 3400, "misses": 0, "min_f_I": 22, "max_f_I": 560},
+      {"residue_mod_840": 289, "primes": 3454, "hits": 3454, "misses": 0, "min_f_I": 28, "max_f_I": 646},
+      {"residue_mod_840": 361, "primes": 3391, "hits": 3391, "misses": 0, "min_f_I": 14, "max_f_I": 640},
+      {"residue_mod_840": 529, "primes": 3411, "hits": 3411, "misses": 0, "min_f_I": 30, "max_f_I": 656}
+    ],
+    "totals": {"primes": 20513, "hits": 20513, "misses": 0}
+  },
+  "corrections": [
+    {
+      "n": 3049,
+      "n_mod_840": 529,
+      "was": "f_I(3049)=0 (chat truncation artifact)",
+      "true_f_I": 30,
+      "still_a_miss_for": "other n≡529 constructions in notes/CLOSED.md"
+    }
+  ],
+  "new_triples": 0,
+  "search_breaking_miss": false,
+  "esc_proved": false
+}

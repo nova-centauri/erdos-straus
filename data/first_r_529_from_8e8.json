@@ -1,0 +1,127 @@
+{
+  "residue_mod_840": 529,
+  "start": 800000000,
+  "stop": 8000000000,
+  "last_prime_scanned": 7999997569,
+  "primes_scanned": 1700954,
+  "t_max": 40,
+  "min_R_reported": 108,
+  "hits_at_or_above_min_R": 0,
+  "unresolved_above_t_max": [],
+  "unresolved_count": 0,
+  "max_first_R_seen": 83,
+  "max_first_R_n": 3434195209,
+  "deepest": {
+    "n": 3434195209,
+    "n_mod_840": 529,
+    "first_R": 83,
+    "t": 20,
+    "x": 858548823,
+    "y": 35534161289180136,
+    "z": 114988543152664447192,
+    "residual": 0
+  },
+  "slices": [
+    {
+      "start": 800000000,
+      "stop": 1100000000,
+      "primes_scanned": 75576,
+      "max_first_R_seen": 67,
+      "max_first_R_n": 858287329,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 1100000000,
+      "stop": 1400000000,
+      "primes_scanned": 74287,
+      "max_first_R_seen": 59,
+      "max_first_R_n": 1183128769,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 1400000000,
+      "stop": 1700000000,
+      "primes_scanned": 73971,
+      "max_first_R_seen": 59,
+      "max_first_R_n": 1551554449,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 1700000000,
+      "stop": 2000000000,
+      "primes_scanned": 73003,
+      "max_first_R_seen": 59,
+      "max_first_R_n": 1714695889,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 2000000000,
+      "stop": 2500000000,
+      "primes_scanned": 121096,
+      "max_first_R_seen": 63,
+      "max_first_R_n": 2415658249,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 2500000000,
+      "stop": 3000000000,
+      "primes_scanned": 119656,
+      "max_first_R_seen": 79,
+      "max_first_R_n": 2809257889,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 3000000000,
+      "stop": 3500000000,
+      "primes_scanned": 119006,
+      "max_first_R_seen": 83,
+      "max_first_R_n": 3434195209,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 3500000000,
+      "stop": 4000000000,
+      "primes_scanned": 118389,
+      "max_first_R_seen": 71,
+      "max_first_R_n": 3769072129,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 4000000000,
+      "stop": 5000000000,
+      "primes_scanned": 234297,
+      "max_first_R_seen": 71,
+      "max_first_R_n": 4382228449,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 5000000000,
+      "stop": 6000000000,
+      "primes_scanned": 231953,
+      "max_first_R_seen": 63,
+      "max_first_R_n": 5198173369,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 6000000000,
+      "stop": 7000000000,
+      "primes_scanned": 230613,
+      "max_first_R_seen": 83,
+      "max_first_R_n": 6000595129,
+      "hits_at_or_above_min_R": 0
+    },
+    {
+      "start": 7000000000,
+      "stop": 8000000000,
+      "primes_scanned": 229107,
+      "max_first_R_seen": 79,
+      "max_first_R_n": 7109478289,
+      "hits_at_or_above_min_R": 0
+    }
+  ],
+  "cover_claimed": false,
+  "esc_proved": false,
+  "note": "measurement; bounded shifted-greedy is not a class cover",
+  "hits": [],
+  "csv": "data/first_r_529_from_8e8.csv"
+}

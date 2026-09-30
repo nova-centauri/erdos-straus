@@ -1,0 +1,22 @@
+{
+  "N": 20000000,
+  "n_lo": 2,
+  "n_hi": 20000000,
+  "runtime_seconds": 2860.404,
+  "sums": {"f_I_n": 5772274472, "f_I_p": 982580024, "primes": 1270607},
+  "mordell_primes": {
+    "zero_misses_is_not_a_cover": true,
+    "classes": [
+      {"residue_mod_840": 1, "primes": 6556, "hits": 6556, "misses": 0, "min_f_I": 12, "max_f_I": 620},
+      {"residue_mod_840": 121, "primes": 6594, "hits": 6594, "misses": 0, "min_f_I": 24, "max_f_I": 720},
+      {"residue_mod_840": 169, "primes": 6551, "hits": 6551, "misses": 0, "min_f_I": 22, "max_f_I": 764},
+      {"residue_mod_840": 289, "primes": 6594, "hits": 6594, "misses": 0, "min_f_I": 28, "max_f_I": 696},
+      {"residue_mod_840": 361, "primes": 6556, "hits": 6556, "misses": 0, "min_f_I": 14, "max_f_I": 734},
+      {"residue_mod_840": 529, "primes": 6540, "hits": 6540, "misses": 0, "min_f_I": 30, "max_f_I": 738}
+    ],
+    "totals": {"primes": 39391, "hits": 39391, "misses": 0}
+  },
+  "constraints": {"y_max": "2n/3", "x": "n*a*b*d", "a_le_b": true, "primitive_ac": true},
+  "esc_proved": false,
+  "cover_claimed": false
+}
